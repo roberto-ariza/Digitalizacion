@@ -73,6 +73,13 @@
       border-radius: 50%;
       border: 4px solid #457b9d;
     }
+
+    .gallery-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
   </style>
 </head>
 
@@ -131,6 +138,16 @@
         <h2 class="text-3xl font-semibold mb-4">Tu instructor, Roberto Ariza 🛠️</h2>
         <p>Roberto es un mecánico con más de 10 años de experiencia trabajando en el mundo de los rallys. Ha trabajado en algunos de los equipos más prestigiosos y te enseñará todo lo que necesitas saber para convertirte en un experto mecánico de rally. Además, Roberto es conocido por su enfoque práctico y su habilidad para explicar conceptos complejos de manera sencilla.</p>
       </div>
+    </div>
+  </section>
+
+  <!-- Galería de imágenes -->
+  <section class="py-16 px-6 bg-color4">
+    <h2 class="text-3xl font-semibold text-center mb-10">Galería de Rally 🏁</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <img src="https://images.unsplash.com/photo-1603383928972-0b3e0b5d2b1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Rally 1" class="gallery-image">
+      <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Rally 2" class="gallery-image">
+      <img src="https://images.unsplash.com/photo-1603383928972-0b3e0b5d2b1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Rally 3" class="gallery-image">
     </div>
   </section>
 
